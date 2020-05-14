@@ -11,24 +11,37 @@ import Certificates from './components/Certificates';
 import Community from './components/Community';
 import Promosec2 from './components/Promosec2';
 import Bussiness from './components/Bussiness';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 function App() {
 
   return (
-    <div>
-        <Header/>
-        <Collaborator/>
-        <Features/>
-        <Promosec/>
-        <QualityAssurance/>
-        <Accessibilitypromo/>
-        <Teachingmethodology/>
-        <Certificates/>
-        <Community/>
-        <Promosec2/>
-        <Bussiness/>
-        <Footer/>
+    <Router>
+      <div>
+        <NavBar/>
+        <Route exact path="/" render = { props => (
+          <React.Fragment>
+          <Header/>
+          <Collaborator/>
+          <Features/>
+          <Promosec/>
+          <QualityAssurance/>
+          <Accessibilitypromo/>
+          <Teachingmethodology/>
+          <Certificates/>
+          <Community/>
+          <Promosec2/>
+          <Bussiness/>
+          <Footer/>
+        </React.Fragment>
+        )}/>
+        <Route path="/signup" component={Signup}/>
+        <Route path="/login" component={Login}/>
     </div>
+    </Router>
   );
 }
 

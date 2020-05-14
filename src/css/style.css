@@ -251,11 +251,11 @@
         z-index:-1;
     }
 
-    #amithead,#amitp{
+    #uniqheader,#uniqpara{
        /* margin-left: 3%;/ */
        text-align: center;
     }
-    #amitbtn{
+    #uniqbutton{
       margin-left:10%;
 
     }
