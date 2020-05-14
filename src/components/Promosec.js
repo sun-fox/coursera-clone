@@ -2,9 +2,9 @@ import React from 'react'
 import promo from '../images/promoStat.png';
 import redcir from '../images/pinkish-half-circle.png';
 import '../css/style.css';
-function Section1() {
+function Promosec() {
     return (
-        <div class="container-fluid section1">
+        <div class="container-fluid Promosec">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="redcir"><img src={redcir} alt="" /></div>
@@ -24,4 +24,4 @@ function Section1() {
     )
 }
 
-export default Section1
+export default Promosec

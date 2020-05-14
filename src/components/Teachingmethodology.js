@@ -1,14 +1,14 @@
 import React from 'react'
 import quiz from '../images/quizCompletion.png';
 import '../css/style.css';
-function Section4() {
+function Teachingmethodology() {
     return (
-        <div class ="container-fluid section4">
+        <div class ="container-fluid Teachingmethodology">
            
             <div class ="row">
                 <div class ="col-md-2 col-sm-12"></div>
                 <div class ="col-md-3 col-sm-12">
-                    <div class ="section2-text-box">
+                    <div class ="QualityAssurance-text-box">
                     <br/>
                         <p style ={{color:"grey"}}>APPLIED LEARNING</p>
                         <p style={{fontSize:"25px"}} >Master skills with in-depth learning</p>
@@ -27,4 +27,4 @@ function Section4() {
     )
 }
 
-export default Section4
+export default Teachingmethodology

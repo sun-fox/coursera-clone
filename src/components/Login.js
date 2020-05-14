@@ -2,11 +2,11 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 import '../css/style.css';
-import TopNavPc from './TopNavPc'
+import NavBar from './NavBar'
 function Signup() {
     return (
     <div>
-        <TopNavPc/>
+        <NavBar/>
         <div class ="container-fluid">
             <div class ="row">
                 <div class ="col-md-4"></div>

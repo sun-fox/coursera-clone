@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/style.css';
 import secphoto from '../images/secondary-consumer-hero-img.png';
-function Section7() {
+function Promosec2() {
     return (
-        <div class ="container-fluid section7" style ={{backgroundColor:"#FCF4CF",paddingBottom:"60px"}}>
+        <div class ="container-fluid Promosec2" style ={{backgroundColor:"#FCF4CF",paddingBottom:"60px"}}>
             <div class ="row">
                 <div class ="col-md-2 col-sm-12"></div>
                 <div class ="col-md-4 col-sm-12">
@@ -19,4 +19,4 @@ function Section7() {
     )
 }
 
-export default Section7
+export default Promosec2

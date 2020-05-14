@@ -3,14 +3,14 @@ import './css/bootstrap.min.css';
 import Header from './components/Header';
 import Collaborator from './components/Collaborator';
 import Features from './components/Features';
-import Section1 from './components/Section1';
-import Section2 from './components/Section2';
-import Section3 from './components/Section3';
-import Section4 from './components/Section4';
-import Section5 from './components/Section5';
-import Section6 from './components/Section6';
-import Section7 from './components/Section7';
-import Section8 from './components/Section8';
+import Promosec from './components/Promosec';
+import QualityAssurance from './components/QualityAssurance';
+import Accessibilitypromo from './components/Accessibilitypromo';
+import Teachingmethodology from './components/Teachingmethodology';
+import Certificates from './components/Certificates';
+import Community from './components/Community';
+import Promosec2 from './components/Promosec2';
+import Bussiness from './components/Bussiness';
 import Footer from './components/Footer';
 function App() {
 
@@ -19,14 +19,14 @@ function App() {
         <Header/>
         <Collaborator/>
         <Features/>
-        <Section1/>
-        <Section2/>
-        <Section3/>
-        <Section4/>
-        <Section5/>
-        <Section6/>
-        <Section7/>
-        <Section8/>
+        <Promosec/>
+        <QualityAssurance/>
+        <Accessibilitypromo/>
+        <Teachingmethodology/>
+        <Certificates/>
+        <Community/>
+        <Promosec2/>
+        <Bussiness/>
         <Footer/>
     </div>
   );

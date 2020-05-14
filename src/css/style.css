@@ -109,15 +109,15 @@
     padding:20px;
 }
 
-.section1{
+.Promosec{
     background-color: #d6edf6;
     overflow:hidden;
 }
-.section1 img{
+.Promosec img{
     margin-top:8%;
     /* margin-left:10%; */
 }
-.section2,.section3,.section4,.section5,.section6,.section7,.section8{
+.QualityAssurance,.Accessibilitypromo,.Teachingmethodology,.Certificates,.Community,.Promosec2,.Bussiness{
     overflow-x:hidden;
     padding-top:50px;
 }

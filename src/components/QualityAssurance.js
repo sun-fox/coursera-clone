@@ -1,9 +1,9 @@
 import React from 'react'
 import andrew from '../images/andrewng.png';
 import '../css/style.css';
-function Section2() {
+function QualityAssurance() {
     return (
-        <div class ="container-fluid section2">
+        <div class ="container-fluid QualityAssurance">
             <div class ="row text-center">
                 <div class ="col-md-12 col-sm-12">
                 <br/>
@@ -13,7 +13,7 @@ function Section2() {
             <div class ="row">
                 <div class ="col-md-2 col-sm-12"></div>
                 <div class ="col-md-3 col-sm-12">
-                    <div class ="section2-text-box">
+                    <div class ="QualityAssurance-text-box">
                     <br/>
                         <p style ={{color:"grey"}}>TOP QUALITY</p>
                         <p style={{fontSize:"25px"}} >Learn from leading <br/>universities and companies</p>
@@ -30,4 +30,4 @@ function Section2() {
     )
 }
 
-export default Section2
+export default QualityAssurance

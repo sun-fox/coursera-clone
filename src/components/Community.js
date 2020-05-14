@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from './Slider'
-function Section6() {
+function Community() {
     return (
-        <div class ="container-fluid section6" >
+        <div class ="container-fluid Community" >
             <div class ="row text-center">
                 <div class ="col-md-12">
                     <div style ={{marginTop:"9%"}}>
@@ -16,4 +16,4 @@ function Section6() {
     )
 }
 
-export default Section6
+export default Community

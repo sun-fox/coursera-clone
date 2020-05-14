@@ -11,9 +11,9 @@ import tata from '../images/tata.svg';
 import danone from '../images/danone.png';
 import telenor from '../images/telenor.png';
 import airbus from '../images/airbus.svg';
-function Section8() {
+function Bussiness() {
     return (
-        <div class ="container-fluid section8" style ={{padding:"50px"}}>
+        <div class ="container-fluid Bussiness" style ={{padding:"50px"}}>
             <div class ="row">
                 <div class ="col-md-2 col-sm-12"></div>
                 <div class ="col-md-5 col-sm-12">
@@ -21,25 +21,15 @@ function Section8() {
                     <div class ="row text-center">
                         <div class ="col-md-12">
                         <img  id="mobilesponsorimg"src ={loreal} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={pandg} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={novartis} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={telenor} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={airbus} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={axisbank} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={accelya} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={tata} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={axa} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={danone} alt=""  />
-                        
                         <img  id="mobilesponsorimg"src ={sk} alt=""  />
                         </div>
                     </div>
@@ -56,4 +46,4 @@ function Section8() {
     )
 }
 
-export default Section8
+export default Bussiness
