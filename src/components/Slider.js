@@ -21,28 +21,28 @@ export default class Slider extends Component {
             <div class=" container text-center" style={{ overflowX: "hidden" }}>
                 <div class="responsive">
                     <Slidr {...settings}>
-                        <div class="card" style={{ padding: "10px",display:'flex'}}>
-                            <div class="" style={ {flex:'4', padding:'5px'} }><img src={julio} alt="" /></div>
-                            <div class="caption text-center" style={ {flex:'8', padding:'5px'} }>
-                                <h3>Julio</h3>
-                                <p>FrontEnd Developer</p>
-                            </div>
-                        </div>
-                        <div class="card" style={{ padding: "10px",display:'flex' }}>
+                        <div class="card" style={{ display:'flex' }}>
                             <div class="" style={ {flex:'4', padding:'5px'} }><img src={kara} alt="" /></div>
                             <div class="caption text-center" style={ {flex:'8', padding:'5px'} }>
                                 <h3>Kara</h3>
                                 <p>Backend Developer</p>
                             </div>
                         </div>
-                        <div class="card" style={{ padding: "10px",display:'flex' }}>
+                        <div class="card" style={{ display:'flex'}}>
+                            <div class="" style={ {flex:'4', padding:'5px'} }><img src={julio} alt="" /></div>
+                            <div class="caption text-center" style={ {flex:'8', padding:'5px'} }>
+                                <h3>Julio</h3>
+                                <p>FrontEnd Developer</p>
+                            </div>
+                        </div>
+                        <div class="card" style={{ display:'flex' }}>
                             <div class="" style={ {flex:'4', padding:'5px'} }><img src={sabrina} alt="" /></div>
                             <div class="caption text-center" style={ {flex:'8', padding:'5px'} }>
                                 <h3>Sabrina</h3>
                                 <p>Public Relations Head</p>
                             </div>
                         </div>
-                        <div class="card" style={{ padding: "10px",display:'flex' }}>
+                        <div class="card" style={{ display:'flex' }}>
                             <div class="" style={ {flex:'4', padding:'5px'} }><img src={mirela} alt="" /></div>
                             <div class="caption text-center" style={ {flex:'8', padding:'5px'} }>
                                 <h3>Mirela</h3>
